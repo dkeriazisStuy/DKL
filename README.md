@@ -1,2 +1,2 @@
-# DKL
-Repo for Team DKL
+# SoftDev-Workshop
+Homeworks for Software Development.
