@@ -1,3 +1,9 @@
+# Team Yellow
+# Clara Mohri, Daniel Keriazis
+# SoftDev1 pd07
+# K06 --StI/O: Divine your Destiny!
+# 2018-09-14
+
 from random import random
 
 # Returns the contents of the file with name `file`
