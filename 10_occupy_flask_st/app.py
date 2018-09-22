@@ -1,3 +1,8 @@
+# Team IWantPancakes -- Daniel Keriazis, Mai Rachlevsky
+# SoftDev pd7
+# K10 -- Jinja Tuning
+# 2018-09-24
+
 from flask import Flask, render_template
 from csv import reader
 from util.occupation_handling import csv_to_weighted_list, \
