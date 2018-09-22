@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from csv import reader
-from occupation_handling import csv_to_weighted_list, weighted_choice, read_file
+from util.occupation_handling import csv_to_weighted_list, weighted_choice, read_file
 
 app = Flask(__name__)
 
