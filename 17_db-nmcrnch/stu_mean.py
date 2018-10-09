@@ -35,8 +35,8 @@ c.execute("CREATE TABLE peeps_avg (id INT PRIMARY KEY, avg INT)")
 
 # Add rows to peeps_avg with id and avg
 for student in averages:
-    c.execute("INSERT INTO peeps_avg VALUES ({id}, {avg})"  # Add new row
-            .format(id=student, avg=averages[student]))  # Use proper values
+    c.execute("INSERT INTO peeps_avg VALUES (?, ?)",  # Add new row
+            student, averages[student])  # Use proper values
 
 db.commit()  # Save changes
 db.close()  # Close database
