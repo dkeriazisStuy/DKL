@@ -1,8 +1,32 @@
-/* .selector-for-some-widget { */
-    /* box-sizing: content-box; */
-/* } */
+body {
+    background-color: #6494aa;
+}
 
-/* body { */
-    /* background-color: magenta; */
-/* } */
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.nav-link {
+    color: #151515;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.btn.disabled {
+    
+}
+
+.tiny {
+    font-size: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+:hover + .hidden {
+    display: block;
+}
 
