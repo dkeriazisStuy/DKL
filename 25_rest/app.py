@@ -13,7 +13,6 @@ def index():
     print(url)
     with urllib.request.urlopen(url) as f:
         result = json.loads(f.read())
-    #  pic = result['url']
     icon = result['currently']['icon']
     icon_map = {
         'clear-day': 'far fa-sun',
