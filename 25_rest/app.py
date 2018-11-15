@@ -8,7 +8,6 @@ conf_file = 'data/app.json'
 
 @app.route('/')
 def index():
-    KEY = 'NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo'
     url = util.conf.get_base_url()
     print(url)
     with urllib.request.urlopen(url) as f:
