@@ -38,7 +38,7 @@ var fibOut = document.getElementById('fibOut');
 fibButton.addEventListener(
     'click',
     () => {
-        var fibVal = +document.getElementById('fibVal').value;
+        var fibVal = document.getElementById('fibVal').value|0;
         if (isNaN(fibVal)) {
             return;
         }
@@ -55,8 +55,8 @@ var gcdOut = document.getElementById('gcdOut');
 gcdButton.addEventListener(
     'click',
     () => {
-        var gcdVal1 = +document.getElementById('gcdVal1').value;
-        var gcdVal2 = +document.getElementById('gcdVal2').value;
+        var gcdVal1 = document.getElementById('gcdVal1').value|0;
+        var gcdVal2 = document.getElementById('gcdVal2').value|0;
         if (isNaN(gcdVal1) || isNaN(gcdVal2)) {
             return;
         }
